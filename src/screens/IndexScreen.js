@@ -5,7 +5,8 @@ import { View, Text, Image, Button } from 'react-native';
 import {
   createStackNavigator,
   createAppContainer,
-  createBottomTabNavigator
+  createBottomTabNavigator,
+  createDrawerNavigator
 } from 'react-navigation';
 import LoginScreen from './LoginScreen';
 import SignupScreen from './SignupScreen';
